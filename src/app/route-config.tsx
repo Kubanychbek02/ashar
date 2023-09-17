@@ -1,24 +1,24 @@
-import {HomePage, Projects} from '../pages'
+// import {HomePage, Projects} from '../pages'
 
-export const ROUTES: ReadonlyArray<Routes> = [
+export const ROUTES = [
   {
     display: true,
     path: '/',
     title: 'Главная страница',
-    page: <HomePage />,
+    // page: <HomePage />,
   },
   {
     display: true,
     path: '/projects',
     title: 'Проекты',
-    page: <Projects />,
+    // page: <Projects />,
   },
 ]
 
-type Routes = {
-  title?: string
-  display: boolean
-  path: string
-  page: JSX.Element
-  // roles: ReadonlyArray<'sponsor' | 'startaper'>
-}
+// type Routes = {
+//   title?: string
+//   display: boolean
+//   path: string
+//   page: JSX.Element
+//   // roles: ReadonlyArray<'sponsor' | 'startaper'>
+// }
